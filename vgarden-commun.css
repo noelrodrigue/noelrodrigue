@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif, Tahoma, Geneva, Verdana;
+    color:black;
+}
+.desactive{
+   display:none;
+}
+.active{
+   display:block;
+}
+
+body{
+    background-color:#EAEFE7 ;
+}
+
+header{
+    background-color: white;
+    width:70%;
+    padding:10px;
+    background-image:URL('./images/image-10.jfif');
+    margin:auto;"
+}
+
+
+.header-contents{
+   display:flex;
+   flex-direction:raw;
+   align-items:center;
+   justify-content:center;
+}
+
+.header-contents-element-left{
+   width:20%;
+   text-align:left;
+}
+
+.header-contents-element-center{
+   width:60%;
+   text-align:center;
+}
+
+.header-contents-element-right{
+   width:20%;
+   text-align:right;
+}
+
+.texte-vert{
+   color:rgb(29, 179, 37);
+}
+
+
+main{
+   width:70%;
+   background-color:white;
+   padding-left:10px;
+   padding-bottom:20px;
+   padding-right:10px;
+   margin:auto;
+   padding-top:10px;
+}
+
+.main-contents{
+   display:flex;
+   flex-direction:raw;
+   gap:10px;
+}
+
+.main-contents-menu{
+   width:10%;
+   text-align:center;
+}
+
+.main-contents-corp{
+   width:60%;
+}
+
+.main-contents-recherche{
+   width:30%;
+}
+
+footer{
+    width:70%;
+    padding:10px;
+    background-image:URL('./images/image-10.jfif');
+    margin:auto;
+}
+input[type=text], input[type=password], input[type=email]{
+  width:100%;
+  height:20px;
+  padding: 12px 20px;
+  margin-bottom:10px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type=submit], input[type=button]{
+  margin-top : 10px;
+  margin-bottom: 5px; 
+  padding: 10px 32px; 
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(29, 179, 37);
+  border: 1px solid rgb(29, 179, 37);
+  cursor: pointer;
+}
+
+textarea{
+  width:100%;
+  height:20px;
+  padding: 12px 20px;
+  margin-bottom:10px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea:hover, textarea:focus{
+  border: 2px solid rgb(29, 179, 37);
+}
+
+input[type=text]:hover, input[type=text]:focus{
+  border: 2px solid rgb(29, 179, 37);
+}
+
+input[type=email]:hover, input[type=email]:focus{
+  border: 2px solid rgb(29, 179, 37);
+}
+
+input[type=password]:hover, input[type=password]:focus{
+  border: 2px solid rgb(29, 179, 37);
+}
